@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import { Navbar } from './components'
-import './App.css'
+
+import {  Companies, Courses, Hero, Navbar } from './components'
+
 
 function App() {
   
@@ -8,7 +8,9 @@ function App() {
   return (
    <div>
 <Navbar />
-
+<Hero />
+<Companies />
+<Courses />
    </div>
 
   )

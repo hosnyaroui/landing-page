@@ -12,7 +12,7 @@ const handleClick = () => setToggle(!toggle);
 </div>
 
 <div className='flex items-center'>
-<ul className='hidden md:flex'>
+<ul className='hidden md:flex font-poppins'>
   <li>
 Home
   </li>
@@ -34,8 +34,8 @@ Pricing
 
 
 <div className='hidden md:flex sm:mr-10 md:mr-10'>
-<button className='border-none bg-transparent text-black mr-4'>Login</button>
-<button className='px-8 py-3'>Sign Up</button>
+<button className='border-none bg-transparent text-black mr-4 font-poppins'>Login</button>
+<button className='px-8 py-3 font-poppins'>Sign Up</button>
 
 </div>
 <div className='md:hidden' onClick={handleClick}>
@@ -44,7 +44,7 @@ Pricing
 
       </div>
       <div>
-      <ul className={toggle?'absolute bg-white w-full px-8 md:hidden':'hidden'}>
+      <ul className={toggle?'absolute bg-white w-full px-8 md:hidden font-poppins':'hidden'}>
 <li>
 Home
   </li>
@@ -61,8 +61,8 @@ Platform
 Pricing
   </li>
   <div className='flex flex-col my-4'>
-  <button className='bg-transparent text-black mb-4 py-3 px-8'>Login</button>
-<button className='px-8 py-3'>Sign Up</button>
+  <button className='bg-transparent text-black mb-4 py-3 px-8 font-poppins'>Login</button>
+<button className='px-8 py-3 font-poppins'>Sign Up</button>
   </div>
 </ul>
       </div>
