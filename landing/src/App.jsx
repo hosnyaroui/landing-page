@@ -1,5 +1,5 @@
 
-import {  Achievement, Categories, Companies, Courses, Hero, Navbar } from './components'
+import {  Achievement, Categories, Companies, Courses, Feedback, Hero, Navbar } from './components'
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
 <Courses />
 <Achievement />
 <Categories />
+<Feedback />
    </div>
 
   )
