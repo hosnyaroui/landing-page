@@ -12,7 +12,7 @@ const Footer = () => {
                 <h3 className='text-2xl font-bold mt-10'>Contact Us</h3>
                 <h3 className='py-2 text-[#6D737A]'>Call : +216 26 851 365</h3>
                 <h3 className='py-2 text-[#6D737A]'>We bring the best<br></br> Just for you</h3>
-                <h3 className='py-2 text-[#363A3D]'>Email: example@mail.com</h3>
+                <h3 className='py-2 text-[#363A3D]'>Email: hosnyaroui@gmail.com</h3>
                 <div className='flex gap-4 py-4'>
                         <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaFacebookF size={25} style={{color:'#4DC39E'}} /></div>
                         <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaDribbble size={25} style={{color:'#4DC39E'}} /></div>
