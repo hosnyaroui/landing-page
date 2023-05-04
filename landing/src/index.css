@@ -37,3 +37,8 @@ margin-left: -35px;
 .slick-prev:before{
 margin-left: -35px;
 }
+
+
+.categorie-card:hover .arrow-icon{
+fill:white;
+}
